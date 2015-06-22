@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Projects">
+        <folder name="rog-lovebeans-project">
+            <folder name="Customizer">
+                <file name="org-lovebeans-project-panels-GeneralLoveProperties-createGeneral.instance">
+                    <!--org.lovebeans.project.panels.GeneralLoveProperties.createGeneral()-->
+                    <attr
+                        methodvalue="org.lovebeans.project.panels.GeneralLoveProperties.createGeneral" name="instanceCreate"/>
+                    <attr intvalue="10" name="position"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="org-lovebeans-project">
+            <folder name="Customizer">
+                <file name="org-lovebeans-project-panels-GeneralLoveProperties-createGeneral.instance">
+                    <!--org.lovebeans.project.panels.GeneralLoveProperties.createGeneral()-->
+                    <attr
+                        methodvalue="org.lovebeans.project.panels.GeneralLoveProperties.createGeneral" name="instanceCreate"/>
+                    <attr intvalue="10" name="position"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Templates">
+        <folder name="Project">
+            <folder name="Love2D">
+                <file name="emptyProject.zip" url="nbresloc:/org/lovebeans/project/samples/empty/emptyProject.zip">
+                    <!--org.lovebeans.project.samples.empty.emptyWizardIterator-->
+                    <attr boolvalue="true" name="template"/>
+                    <attr
+                        bundlevalue="org.lovebeans.project.samples.empty.Bundle#empty_displayName" name="displayName"/>
+                    <attr name="iconBase" stringvalue="org/lovebeans/project/samples/empty/empty.png"/>
+                    <attr name="instantiatingWizardURL" urlvalue="nbresloc:/org/lovebeans/project/samples/empty/emptyDescription.html"/>
+                    <attr name="instantiatingIterator" newvalue="org.lovebeans.project.samples.empty.emptyWizardIterator"/>
+                    <attr boolvalue="true" name="requireProject"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>
