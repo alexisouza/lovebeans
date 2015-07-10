@@ -58,10 +58,18 @@ public class LoveCompletionProvider implements CompletionProvider {
                     Exceptions.printStackTrace(ex);
                 }
                 
+                /*
                 LoveFunction[] loveFunctions = LoveFunction.getAvailableFunctions();
                 for (int i = 0; i < loveFunctions.length; i++) {
                     final LoveFunction loveFunction = loveFunctions[i];
                     final String function = loveFunction.getDisplayName();
+                    if (!function.equals("") && function.startsWith(filter)) {
+                        completionResultSet.addItem(new LoveCompletionItem(function, startOffset, caretOffset));
+                    }
+                }
+                */
+                String[] loveFunctions = LoveFunctions.getFunctions();
+                for (String function : loveFunctions) {
                     if (!function.equals("") && function.startsWith(filter)) {
                         completionResultSet.addItem(new LoveCompletionItem(function, startOffset, caretOffset));
                     }
@@ -71,7 +79,7 @@ public class LoveCompletionProvider implements CompletionProvider {
                 
             }
             
-        });
+        }, jtc);
     }
 
     @Override

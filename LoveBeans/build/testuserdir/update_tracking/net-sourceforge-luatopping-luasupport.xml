@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module codename="net.sourceforge.luatopping.luasupport/2">
+    <module_version install_time="1436417611999" last="true" origin="1385236993_net-sourceforge-luatopping-luasupport.nbm" specification_version="2.7.0">
+        <file crc="2232727217" name="config/Modules/net-sourceforge-luatopping-luasupport.xml"/>
+        <file crc="4015855410" name="modules/net-sourceforge-luatopping-luasupport.jar"/>
+    </module_version>
+</module>
