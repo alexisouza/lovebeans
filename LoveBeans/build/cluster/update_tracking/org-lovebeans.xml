@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="org.lovebeans">
-    <module_version install_time="1436495261529" last="true" origin="installer" specification_version="1.0">
+    <module_version install_time="1436584679700" last="true" origin="installer" specification_version="1.0">
         <file crc="2005718927" name="config/Modules/org-lovebeans.xml"/>
-        <file crc="500744448" name="modules/org-lovebeans.jar"/>
+        <file crc="593928780" name="modules/org-lovebeans.jar"/>
     </module_version>
 </module>

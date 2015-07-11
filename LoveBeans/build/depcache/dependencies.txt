@@ -225,7 +225,6 @@ org.netbeans.spi.editor.completion.CompletionProvider
 java.lang.String
 ||:org.lovebeans.editor.codecompletion.LoveCompletionProvider$1
 org.lovebeans.editor.codecompletion.LoveCompletionProvider
-java.lang.StringBuilder
 org.netbeans.spi.editor.completion.support.AsyncCompletionQuery
 javax.swing.text.BadLocationException
 org.lovebeans.editor.codecompletion.LoveCompletionItem
